@@ -1,0 +1,43 @@
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 4rem ;
+  min-width: 400px;
+  max-width: 9000px;
+  justify-content: center;
+}
+.poster{
+    min-height: 300px;
+    max-height: max-content ;
+    width: 400px;
+    background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-error-404_114360-1811.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.info {
+    min-width: min-content;
+    max-width: 400px;
+
+}
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.release{
+    color: #fff7;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.rate strong{
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.summary{
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}

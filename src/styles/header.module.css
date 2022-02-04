@@ -1,0 +1,55 @@
+.header{
+    height: 4.5rem;
+    background-color: #00a1ff45;
+}
+
+.navUl{
+    height: inherit;
+    display: flex;
+    flex-direction :row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.navUl li a{
+    background-color: #84f;
+    display: inline-block;
+    text-align: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size:3.3rem;
+    text-shadow: #ff80ff 0 0 40px,#ff80ff 0 0 20px,#fff 0 0 10px;
+}
+.form{
+    position:relative;
+    display: inline-flex;       
+    align-items: center;
+}
+
+.form input{
+    box-sizing: border-box;
+    color: #0008;
+    height: 30px;
+    border-radius: 10px;
+    width:250px;
+    border: none;
+    outline: none;
+    padding : 0 35px 0 10px;
+}
+
+.form .btn{
+    position: absolute;
+    background-color: transparent;
+    border:none;
+    font-size: 1.5rem;
+    right: 5px;
+    top: 3px ;
+}
+
+.form .btn svg {
+    fill: #0009;
+    margin: auto;
+}

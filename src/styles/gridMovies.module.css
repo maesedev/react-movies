@@ -1,0 +1,8 @@
+.ulCont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
